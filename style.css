@@ -1,0 +1,122 @@
+body {
+  
+   background-image: url('image.jpg');
+   background-size: 1700px,1900px;
+}
+  
+
+.background-image{
+
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+p{
+   background-attachment: blue;
+}
+
+
+button,
+.back-button {
+    background-color:rgb(221, 214, 221) ;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+
+
+.game{
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+
+}
+.con{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+   }
+   .sc{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+
+   }
+   .exit-button{
+    
+    background-color: #150329;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+   }
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px; /* Adjust padding as needed */
+    text-align: left ; /*left align the text */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Add some margin between links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+    
+   
+
+    
+
+
